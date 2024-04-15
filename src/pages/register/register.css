@@ -1,0 +1,55 @@
+.registerPage {
+    margin-top: 150px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid var(--border);
+    background-color: var(--card);
+    color: var(--active);
+}
+
+.registerTitle {
+    text-align: center;
+    font-size: 30px !important;
+    padding: 0 0 20px 0;
+}
+
+/* .registerBtn {
+    color: black !important;
+    background-color: var(--primary) !important;
+    width: 100%;
+} */
+
+.errormessage {
+    background-color: lightpink;
+    color: firebrick;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.instructions > svg {
+    margin-right: 0.25rem;
+}
+
+.offscreen {
+    position: absolute;
+    left: -9999px;
+}
+
+.hide {
+    display: none;
+}
+
+.valid {
+    color: limegreen;
+    margin-left: 0.25rem;
+}
+
+.invalid {
+    color: red;
+    margin-left: 0.25rem;
+}
+
+.line {
+    display: inline-block;
+}
